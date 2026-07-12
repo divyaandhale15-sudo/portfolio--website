@@ -2,28 +2,24 @@ body{
     font-family: Arial, sans-serif;
     background:#f4f4f4;
     text-align:center;
-    padding:50px;
+    padding:20px;
 }
 
-.container{
+.products{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
     background:white;
     padding:20px;
     border-radius:10px;
-    max-width:400px;
-    margin:auto;
-    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    width:200px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
 }
 
-input{
-    padding:10px;
-    width:70%;
-}
-
-button{
-    padding:10px;
-    cursor:pointer;
-}
-
-#weather{
-    margin-top:20px;
+.card:hover{
+    transform:scale(1.05);
 }
